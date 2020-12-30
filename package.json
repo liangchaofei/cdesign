@@ -1,6 +1,6 @@
 {
   "name": "cdesign",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -27,18 +27,23 @@
     ]
   },
   "dependencies": {
+    "antd": "^4.9.4",
     "classnames": "^2.2.6",
     "rc-notification": "^4.5.4",
     "react": "^16.12.0",
-    "react-icons": "^4.1.0"
+    "react-drag-listview": "^0.1.7",
+    "react-icons": "^4.1.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.11",
+    "@types/styled-components": "^5.1.7",
     "@umijs/test": "^3.0.5",
     "dumi": "^1.0.10",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
+    "node-sass": "^5.0.0",
     "prettier": "^1.19.1",
     "yorkie": "^2.0.0"
   }

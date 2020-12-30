@@ -11,7 +11,7 @@ interface IProps {
 
 const Tag = React.memo((props: IProps) => {
   const { closable = false, color = 'blue', onClose, text = '标签' } = props;
-  let tag = React.createRef();
+  let tag = React.createRef<any>();
   const closeTag = () => {
     onClose && onClose();
     // @ts-ignore
