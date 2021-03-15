@@ -32,4 +32,5 @@ export default defineConfig({
   base: BaseUrl,
   publicPath: BaseUrl + '/', // 打包文件时，引入地址生成 publicPath/xxx.js
   // more config: https://d.umijs.org/config
+  
 });
